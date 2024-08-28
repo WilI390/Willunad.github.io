@@ -1,0 +1,101 @@
+<html>
+  <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mi Página Web</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+            }
+            header {
+                background-color: #333;
+                color: white;
+                padding: 10px;
+                text-align: center;
+            }
+            nav {
+                background-color: #444;
+                color: white;
+                padding: 10px;
+                text-align: center;
+            }
+            nav ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+            nav ul li {
+                display: inline;
+                margin-right: 10px;
+            }
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+            }
+            main {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            section {
+                padding: 20px;
+                background-color: white;
+                margin: 10px 0;
+                text-align: center;
+            }
+            footer {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 10px;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 10px auto;
+            }
+            .citation {
+                font-size: 0.9em;
+                color: #666;
+                margin-top: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Arquitectura Cliente/Servidor y Diseño Centrado en el Usuario</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#cliente-servidor">Cliente/Servidor</a></li>
+                <li><a href="#diseno-usuario">Diseño Centrado en el Usuario</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="cliente-servidor">
+                <h2>¿Qué es la Arquitectura Cliente/Servidor?</h2>
+                <p>La arquitectura Cliente/Servidor en desarrollos web es un modelo en el cual un cliente (generalmente un navegador webpor ejemplo) solicita servicios o recursos a un servidor, que procesa estas solicitudes y envía las respuestas. El servidor maneja la lógica de la aplicación y la base de datos, mientras que el cliente se ocupa de la interfaz de usuario y la interacción. Esta arquitectura nos es fundamental para la estructura de muchas aplicaciones web en este caso. Reactive Programming. (2021). Arquitectura Cliente-Servidor. Recuperado de https://reactiveprogramming.io/blog/es/estilos-arquitectonicos/cliente-servidor..</p>
+                <img src="https://cdn.pixabay.com/photo/2013/07/12/18/35/network-153537_960_720.png" alt="Arquitectura Cliente/Servidor">
+                <p class="citation">Imagen tomada de: <a href="https://pixabay.com/photos/network-computer-technology-153537/" target="_blank">Pixabay</a></p>
+            </section>
+            <section id="diseno-usuario">
+                <h2>Importancia del Diseño Centrado en el Usuario</h2>
+                <p>El diseño centrado en el usuario es crucial en la programación web porque garantiza que las aplicaciones y sitios web sean intuitivos, accesibles y satisfactorios para los usuarios finales. Este enfoque que aplicamos entonces mejora la experiencia del usuario porque nos centramos en necesidades y comportamientos, lo que puede aumentar la eficiencia, la satisfacción y la retención de usuarios. Krug, S. (2014). Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability (3rd ed.). New Riders.</p>
+                <img src="https://cdn.pixabay.com/photo/2016/09/08/17/46/user-interface-1655006_1280.png" alt="Diseño Centrado en el Usuario">
+                <p class="citation">Imagen tomada de: <a href="https://pixabay.com/photos/user-interface-web-design-ui-1655006/" target="_blank">Pixabay</a></p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Informativo Web Wili Claros UNAD</p>
+        </footer>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                alert('Página cargada exitosamente!');
+            });
+        </script>
+    </body>
+    </html>
